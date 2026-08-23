@@ -23,3 +23,5 @@ print(f"Tiempo de ejecución: {fin - inicio} segundos")
 
 Estudiante: Laura Posada Taborda
 Contacto: lauraposada324146@correo.itm.edu.co
+
+Semestre 2026-2
