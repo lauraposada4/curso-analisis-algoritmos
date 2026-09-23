@@ -2,8 +2,8 @@
 
 import os
 import time
-import matplotlib.pyplot as plt
 
+import matplotlib.pyplot as plt
 from algoritmos import insertion_sort
 from datos import generar_aleatorio, generar_casi_ordenado, generar_inverso
 
