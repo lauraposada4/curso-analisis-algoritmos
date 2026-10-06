@@ -42,7 +42,7 @@
 - Los tres generadores dan listas del tamaño pedido, sin repetidos, y los aleatorios usan semilla.
 
 **Lo que puede mejorar:**
-- No cumple del todo PEP 8: faltan líneas en blanco entre funciones, hay espacios sobrantes en líneas vacías, una línea demasiado larga y varios archivos terminan sin salto de línea.
+- No cumple del todo PEP 8: faltan líneas en blanco entre funciones y hay una línea demasiado larga.
 - Las funciones internas de `merge_sort` no tienen docstring ni la mayoría de funciones internas tienen explicación al estilo Google.
 - La función de `parte3_casos.py` tiene un docstring que no sigue el formato pedido.
 
