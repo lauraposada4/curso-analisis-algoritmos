@@ -1,4 +1,4 @@
-"""Experimento Parte 4: Comparación de tiempo de ejecución entre Insertion Sort y Merge Sort."""
+"""Experimento de la Parte 4: Comparacion entre Insertion Sort y Merge Sort."""
 
 import os
 import time
@@ -9,28 +9,29 @@ from datos import generar_aleatorio
 
 
 def ejecutar_experimento_comparativo() -> None:
-    """Mide el tiempo de ejecución de Insertion Sort y Merge Sort sobre el Escenario A
+    """Compara el tiempo de ejecucion de Insertion Sort y Merge Sort.
 
-    (Aleatorio) para 7 tamaños de entrada y genera la gráfica comparativa.
+    Mide sobre el Escenario A (Aleatorio) para 7 tamanos de entrada
+    y genera la grafica comparativa de tiempos de ejecucion.
+
+    Returns:
+        None
     """
     tamanos = [100, 200, 400, 800, 1600, 3200, 6400]
 
     tiempos_insertion = []
     tiempos_merge = []
 
-    print("Iniciando experimento comparativo (Parte 4)...")
+    print("Iniciando experimento comparativo de la Parte 4...")
 
     for n in tamanos:
-        # Generar lote Escenario A (Aleatorio)
         lote = generar_aleatorio(n)
 
-        # Medir tiempo para Insertion Sort
         inicio = time.perf_counter()
         insertion_sort(lote)
         fin = time.perf_counter()
         tiempos_insertion.append(fin - inicio)
 
-        # Medir tiempo para Merge Sort
         inicio = time.perf_counter()
         merge_sort(lote)
         fin = time.perf_counter()
@@ -40,7 +41,6 @@ def ejecutar_experimento_comparativo() -> None:
 
     os.makedirs("graficas", exist_ok=True)
 
-    # Gráfica comparativa de tiempos de ejecución
     plt.figure(figsize=(10, 6))
     plt.plot(
         tamanos,
@@ -64,8 +64,7 @@ def ejecutar_experimento_comparativo() -> None:
     plt.savefig("graficas/parte4_tiempo.png")
     plt.close()
 
-    print("Experimento finalizado con éxito.")
-    print("Gráfica guardada en 'graficas/parte4_tiempo.png'.")
+    print("Experimento comparativo finalizado. Gráfica guardada.")
 
 
 if __name__ == "__main__":
