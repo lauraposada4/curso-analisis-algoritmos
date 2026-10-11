@@ -1,4 +1,4 @@
-# Laboratorio 2 — Dividir y Vencer:  Cooperativa de Tiendas de Barrio
+# Laboratorio evaluativo 02 — Dividir y Vencer:  Cooperativa de Tiendas de Barrio
 
 **Estudiante:** Laura Posada Taborda  
 **Repositorio:** `lab2-divide-y-vencer`
@@ -17,7 +17,17 @@ source /venv/Scripts/activate
 
 # Instalar Matplotlib si no está presente
 pip install matplotlib
+```
 
+### 2. Ejecutar pruebas y mediciones
+```bash
+
+#Ejecutar script de pruebas unitarias y de verificación (pruebas.py)
+python pruebas.py
+
+#Ejecutar el experimento de medición de tiempos y generar la gráfica (medicion.py)
+python medicion.py
+```
 
 
 ## Parte 1 — Implementación y Verificación
@@ -35,6 +45,8 @@ Las soluciones fueron verificadas mediante scripts de assert que comprobaron el 
 ## Parte 2 — Medición y Gráfica
 
 [Script de Medición](medicion.py)
+
+![Tiempo vs Tamaño de Entrada](graficas/tiempo_vs_n.png)
 
  Los tiempos de ejecución se midieron utilizando time.perf_counter(), cronometrando solo la llamada a cada función de ordenamiento sin incluir la generación previa de las listas aleatorias.
 
