@@ -66,7 +66,7 @@ Muy buen trabajo: el código es correcto y el informe se apoya en sus propias me
 - La nota de la Parte 2 habla de "funciones de ordenamiento" y no dice si repitió las mediciones.
 
 ## ¿El código funciona?
-Sí. Las pruebas pasan, las dos soluciones coinciden en mis pruebas adicionales y `medicion.py` corre y genera la gráfica.
+Sí. Las pruebas pasan, las dos soluciones coinciden en pruebas adicionales y `medicion.py` corre y genera la gráfica.
 
 ## Para el próximo laboratorio
 - Revise las cuentas de las estimaciones antes de entregar.
