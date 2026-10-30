@@ -72,7 +72,7 @@ Muy buen trabajo: su informe y su código están completos y bien sustentados co
 - Las instrucciones asumen Windows (`Scripts/activate`) y no indican cómo hacerlo en otros sistemas.
 
 ## ¿El código funciona?
-Sí. Ambos algoritmos ordenan correctamente en mis pruebas con listas pequeñas y aleatorias, y los scripts de las Partes 3 y 4 generan las gráficas pedidas.
+Sí. Ambos algoritmos ordenan correctamente con listas pequeñas y aleatorias, y los scripts de las Partes 3 y 4 generan las gráficas pedidas.
 
 ## Para el próximo laboratorio
 - Complete las instrucciones de reproducción con el comando de cada parte y ciérrelas bien.
